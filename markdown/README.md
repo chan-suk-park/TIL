@@ -36,4 +36,4 @@
 
 - 추가적인 문법은 [markdown 문법](https://www.markdownguide.org/cheat-sheet/) 에서 참고
 
-  
+- 이모지 복사 [링크](https://emojipedia.org/cross-mark)
