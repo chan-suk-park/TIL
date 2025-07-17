@@ -1,4 +1,10 @@
 # TIL
 
-- CLI [CLI_README](https://github.com/chan-suk-park/TIL/tree/master/CLI)
-- MARKDOWN [MARKDOWN_README](https://github.com/chan-suk-park/TIL/tree/master/markdown)
+✨ SSAFY 학습
+
+| 항목 | 링크 |
+| ------|------|
+|CLI|[CLI_README](https://github.com/chan-suk-park/TIL/tree/master/CLI)|
+|markdown|[MARKDOWN_README](https://github.com/chan-suk-park/TIL/tree/master/markdown)|
+|git|
+
