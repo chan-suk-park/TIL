@@ -1,6 +1,6 @@
 # TIL
 
-✨ SSAFY 학습
+✨ SSAFY start camp 학습
 
 | 항목 | 링크 |
 | ------|------|
