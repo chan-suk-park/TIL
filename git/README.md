@@ -13,7 +13,7 @@
 
     버전(commit) 이력과 파일들이 영구적으로 저장되는 영역 모든 버전과 변경 이력이 기록됨
 
-## git 문법
+## git 주요 명령어 및 문법
 - ```git init``` : 로컬 저장소 설정
 
 - ```git add '파일 이름 or .(디렉토리 안 전체)```' : 작업 영역에서 staging area로 이동
@@ -47,4 +47,27 @@
 
 - ```git clone 'url'``` : 원격 저장소 전체를 복제 (이미 파일이 없는 경우에 사용, ```git init```을 하지않아도 자동으로 설정 되어있음)
 
-- gitignore : 
+- gitignore : git에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는 데 사용하는 텍스트 파일
+    ```.gitignore 파일 생성 후 내부에 추적하지 않을 파일이나 디렉토리 작성```
+    
+    주의사항 : ```git init```전에 할 것
+
+## git 기타 명령어
+- ```git remote -v``` : 현재 로컬 저장소에 등록된 원격 저장소 목록 보기
+
+- ```git remote rm '원격 저장소 이름'``` : 현재 로컬 저장소에 들록된 원격 저장소 삭제
+
+## git revert, remove
+- ```git revert<commit id>```
+  |commit|변경사항|
+  |------|------|
+  |first| 1번 파일 추가|
+  |second| 2번 파일 추가|
+  |third| 3번 파일 추가|
+   
+  
+  ```git revert "second log값 4자리"```
+  하는 경우 vim 편집기가 실행되고 second를 없던 일로 만들고 그 행위를 새로운 commit으로 기록
+  
+  (이 경우 2번 파일은 삭제되지만 second commit은 삭제되지 않고 그대로 남아 있음)
+  
